@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={inter.className}>{children}</body>
-      <Script src='https://unpkg.com/kungfu-panda-ui/dist/min/bundle.min.js' />
+      {/* <Script src='https://unpkg.com/kungfu-panda-ui/dist/min/bundle.min.js' /> */}
     </html>
   );
 }

@@ -112,7 +112,9 @@ export default function Home() {
       </div>
       <div>
         {/* <version.Button variant='primary'>Click me</version.Button> */}
-        <Button variant='secondary'>Click me!</Button>
+        <Button variant='secondary' onClick={() => alert('Btn clicked')}>
+          Click me!
+        </Button>
       </div>
     </main>
   );
