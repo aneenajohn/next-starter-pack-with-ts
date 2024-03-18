@@ -1,3 +1,4 @@
+'use client';
 import Image from 'next/image';
 import { Button } from 'kungfu-panda-ui';
 // import './pandaUi.d.ts';
@@ -112,9 +113,7 @@ export default function Home() {
       </div>
       <div>
         {/* <version.Button variant='primary'>Click me</version.Button> */}
-        <Button variant='secondary' onClick={() => alert('Btn clicked')}>
-          Click me!
-        </Button>
+        <Button variant='secondary'>Click me!</Button>
       </div>
     </main>
   );
